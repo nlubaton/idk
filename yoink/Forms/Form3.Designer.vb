@@ -26,9 +26,10 @@ Partial Class Form3
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.BunifuDragControl1 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
-        Me.nameLabel = New System.Windows.Forms.Label()
+        Me.errorLabel = New System.Windows.Forms.Label()
         Me.clearButton = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.BunifuGradientPanel1 = New Bunifu.Framework.UI.BunifuGradientPanel()
+        Me.BunifuGradientPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'BunifuElipse1
@@ -43,16 +44,16 @@ Partial Class Form3
         Me.BunifuDragControl1.TargetControl = Nothing
         Me.BunifuDragControl1.Vertical = True
         '
-        'nameLabel
+        'errorLabel
         '
-        Me.nameLabel.AutoSize = True
-        Me.nameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nameLabel.Location = New System.Drawing.Point(109, 79)
-        Me.nameLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.nameLabel.Name = "nameLabel"
-        Me.nameLabel.Size = New System.Drawing.Size(194, 18)
-        Me.nameLabel.TabIndex = 1
-        Me.nameLabel.Text = "Please fill in all the input!"
+        Me.errorLabel.AutoSize = True
+        Me.errorLabel.BackColor = System.Drawing.Color.Transparent
+        Me.errorLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.errorLabel.Location = New System.Drawing.Point(13, 23)
+        Me.errorLabel.Name = "errorLabel"
+        Me.errorLabel.Size = New System.Drawing.Size(67, 15)
+        Me.errorLabel.TabIndex = 1
+        Me.errorLabel.Text = "------------"
         '
         'clearButton
         '
@@ -72,10 +73,10 @@ Partial Class Form3
         Me.clearButton.IdleFillColor = System.Drawing.Color.Transparent
         Me.clearButton.IdleForecolor = System.Drawing.Color.Gray
         Me.clearButton.IdleLineColor = System.Drawing.Color.Gray
-        Me.clearButton.Location = New System.Drawing.Point(122, 122)
-        Me.clearButton.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
+        Me.clearButton.Location = New System.Drawing.Point(98, 35)
+        Me.clearButton.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
         Me.clearButton.Name = "clearButton"
-        Me.clearButton.Size = New System.Drawing.Size(169, 53)
+        Me.clearButton.Size = New System.Drawing.Size(135, 42)
         Me.clearButton.TabIndex = 15
         Me.clearButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -83,36 +84,39 @@ Partial Class Form3
         '
         Me.BunifuGradientPanel1.BackgroundImage = CType(resources.GetObject("BunifuGradientPanel1.BackgroundImage"), System.Drawing.Image)
         Me.BunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuGradientPanel1.Controls.Add(Me.errorLabel)
         Me.BunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Maroon
         Me.BunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.Maroon
         Me.BunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.White
         Me.BunifuGradientPanel1.GradientTopRight = System.Drawing.Color.White
-        Me.BunifuGradientPanel1.Location = New System.Drawing.Point(-1, -17)
+        Me.BunifuGradientPanel1.Location = New System.Drawing.Point(-1, -14)
+        Me.BunifuGradientPanel1.Margin = New System.Windows.Forms.Padding(2)
         Me.BunifuGradientPanel1.Name = "BunifuGradientPanel1"
         Me.BunifuGradientPanel1.Quality = 10
-        Me.BunifuGradientPanel1.Size = New System.Drawing.Size(414, 53)
+        Me.BunifuGradientPanel1.Size = New System.Drawing.Size(331, 42)
         Me.BunifuGradientPanel1.TabIndex = 16
         '
         'Form3
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
-        Me.ClientSize = New System.Drawing.Size(412, 221)
+        Me.ClientSize = New System.Drawing.Size(330, 84)
         Me.Controls.Add(Me.BunifuGradientPanel1)
         Me.Controls.Add(Me.clearButton)
-        Me.Controls.Add(Me.nameLabel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form3"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Form3"
+        Me.BunifuGradientPanel1.ResumeLayout(False)
+        Me.BunifuGradientPanel1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents BunifuElipse1 As Bunifu.Framework.UI.BunifuElipse
     Friend WithEvents BunifuDragControl1 As Bunifu.Framework.UI.BunifuDragControl
-    Friend WithEvents nameLabel As Label
+    Friend WithEvents errorLabel As Label
     Friend WithEvents clearButton As Bunifu.Framework.UI.BunifuThinButton2
     Friend WithEvents BunifuGradientPanel1 As Bunifu.Framework.UI.BunifuGradientPanel
 End Class

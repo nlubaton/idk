@@ -46,7 +46,7 @@
 
         ' Declare action '
         If returneeForm.symptomCheck1.Checked = True Or returneeForm.symptomCheck2.Checked = True Or returneeForm.symptomCheck3.Checked = True Or returneeForm.symptomCheck4.Checked = True Or CDbl(returneeForm.bodyTempInput.Text) > 37.7 Then
-            actionTake.Text = "You are advised to quarantine yourself before coming to campus."
+            actionTake.Text = "You are not allowed to return to campus!"
         Else
             actionTake.Text = "You are welcome to come to campus as soon as possible."
         End If

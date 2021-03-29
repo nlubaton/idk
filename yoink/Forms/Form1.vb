@@ -35,20 +35,35 @@
         symptomCheck5.Checked = False
         question2Switch.Value = False
         question3Switch.Value = False
-
     End Sub
 
     ' Send button '
     Private Sub sendButton_Click(sender As Object, e As EventArgs) Handles sendButton.Click
         If fNameInput.Text = "" Or lNameInput.Text = "" Or mIdInput.Text = "" Or phoneNumInput.Text = "" Or bodyTempInput.Text = "" Or courseSelect.selectedIndex = 0 Then
+            Form3.errorLabel.Text = "Please fill in all the inputs."
             Form3.ShowDialog()
         Else
+            If Not IsNumeric(mIdInput.Text) Then
+                Form3.errorLabel.Text = "Matrics ID must only be numerical."
+                Form3.ShowDialog()
+                GoTo Skip
+            End If
+            If Not IsNumeric(phoneNumInput.Text) Then
+                Form3.errorLabel.Text = "Phone number must only be numerical."
+                Form3.ShowDialog()
+                GoTo Skip
+            End If
+            If Not IsNumeric(bodyTempInput.Text) Then
+                Form3.errorLabel.Text = "Temperature must only be numerical"
+                Form3.ShowDialog()
+                GoTo Skip
+            End If
             If symptomCheck1.Checked = False And symptomCheck2.Checked = False And symptomCheck3.Checked = False And symptomCheck4.Checked = False And symptomCheck5.Checked = False Then
                 symptomCheck5.Checked = True
             End If
-
             Me.Hide()
             Form2.Show()
+Skip:
         End If
     End Sub
 
