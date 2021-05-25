@@ -51,6 +51,7 @@ Partial Class Form2
         Me.question3 = New System.Windows.Forms.Label()
         Me.symptom8 = New System.Windows.Forms.Label()
         Me.actionTake = New System.Windows.Forms.Label()
+        Me.saveDatabase = New Bunifu.Framework.UI.BunifuThinButton2()
         CType(Me.msuLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -70,7 +71,7 @@ Partial Class Form2
         '
         Me.msuLogo.BackgroundImage = Global.yoink.My.Resources.Resources.MSU_black
         Me.msuLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.msuLogo.Location = New System.Drawing.Point(275, 12)
+        Me.msuLogo.Location = New System.Drawing.Point(387, 12)
         Me.msuLogo.Name = "msuLogo"
         Me.msuLogo.Size = New System.Drawing.Size(183, 80)
         Me.msuLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -81,7 +82,7 @@ Partial Class Form2
         '
         Me.formName.AutoSize = True
         Me.formName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.formName.Location = New System.Drawing.Point(254, 95)
+        Me.formName.Location = New System.Drawing.Point(366, 95)
         Me.formName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formName.Name = "formName"
         Me.formName.Size = New System.Drawing.Size(224, 25)
@@ -198,7 +199,7 @@ Partial Class Form2
         Me.returnButton.IdleFillColor = System.Drawing.Color.Transparent
         Me.returnButton.IdleForecolor = System.Drawing.Color.Gray
         Me.returnButton.IdleLineColor = System.Drawing.Color.Gray
-        Me.returnButton.Location = New System.Drawing.Point(550, 460)
+        Me.returnButton.Location = New System.Drawing.Point(775, 460)
         Me.returnButton.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.returnButton.Name = "returnButton"
         Me.returnButton.Size = New System.Drawing.Size(169, 53)
@@ -232,7 +233,7 @@ Partial Class Form2
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(282, 156)
+        Me.Label5.Location = New System.Drawing.Point(414, 156)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(88, 18)
@@ -244,7 +245,7 @@ Partial Class Form2
         Me.BunifuSeparator1.BackColor = System.Drawing.Color.Transparent
         Me.BunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.BunifuSeparator1.LineThickness = 1
-        Me.BunifuSeparator1.Location = New System.Drawing.Point(259, 146)
+        Me.BunifuSeparator1.Location = New System.Drawing.Point(391, 146)
         Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BunifuSeparator1.Name = "BunifuSeparator1"
         Me.BunifuSeparator1.Size = New System.Drawing.Size(15, 305)
@@ -256,7 +257,7 @@ Partial Class Form2
         '
         Me.symptom1.AutoSize = True
         Me.symptom1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom1.Location = New System.Drawing.Point(282, 174)
+        Me.symptom1.Location = New System.Drawing.Point(414, 174)
         Me.symptom1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.symptom1.Name = "symptom1"
         Me.symptom1.Size = New System.Drawing.Size(48, 18)
@@ -268,7 +269,7 @@ Partial Class Form2
         '
         Me.symptom2.AutoSize = True
         Me.symptom2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom2.Location = New System.Drawing.Point(282, 192)
+        Me.symptom2.Location = New System.Drawing.Point(414, 192)
         Me.symptom2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.symptom2.Name = "symptom2"
         Me.symptom2.Size = New System.Drawing.Size(48, 18)
@@ -280,7 +281,7 @@ Partial Class Form2
         '
         Me.symptom3.AutoSize = True
         Me.symptom3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom3.Location = New System.Drawing.Point(282, 213)
+        Me.symptom3.Location = New System.Drawing.Point(414, 213)
         Me.symptom3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.symptom3.Name = "symptom3"
         Me.symptom3.Size = New System.Drawing.Size(48, 18)
@@ -292,7 +293,7 @@ Partial Class Form2
         '
         Me.symptom4.AutoSize = True
         Me.symptom4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom4.Location = New System.Drawing.Point(282, 231)
+        Me.symptom4.Location = New System.Drawing.Point(414, 231)
         Me.symptom4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.symptom4.Name = "symptom4"
         Me.symptom4.Size = New System.Drawing.Size(48, 18)
@@ -304,7 +305,7 @@ Partial Class Form2
         '
         Me.symptom5.AutoSize = True
         Me.symptom5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom5.Location = New System.Drawing.Point(282, 249)
+        Me.symptom5.Location = New System.Drawing.Point(414, 249)
         Me.symptom5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.symptom5.Name = "symptom5"
         Me.symptom5.Size = New System.Drawing.Size(48, 18)
@@ -315,10 +316,10 @@ Partial Class Form2
         'question2
         '
         Me.question2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.question2.Location = New System.Drawing.Point(279, 297)
+        Me.question2.Location = New System.Drawing.Point(411, 297)
         Me.question2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.question2.Name = "question2"
-        Me.question2.Size = New System.Drawing.Size(460, 39)
+        Me.question2.Size = New System.Drawing.Size(496, 39)
         Me.question2.TabIndex = 49
         Me.question2.Text = "Have you been in close contact with person suspected and/or confirmed to have COV" &
     "ID-19"
@@ -327,7 +328,7 @@ Partial Class Form2
         '
         Me.symptom7.AutoSize = True
         Me.symptom7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom7.Location = New System.Drawing.Point(282, 336)
+        Me.symptom7.Location = New System.Drawing.Point(414, 336)
         Me.symptom7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.symptom7.Name = "symptom7"
         Me.symptom7.Size = New System.Drawing.Size(48, 18)
@@ -339,7 +340,7 @@ Partial Class Form2
         '
         Me.question3.AutoSize = True
         Me.question3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.question3.Location = New System.Drawing.Point(282, 384)
+        Me.question3.Location = New System.Drawing.Point(414, 384)
         Me.question3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.question3.Name = "question3"
         Me.question3.Size = New System.Drawing.Size(306, 18)
@@ -350,7 +351,7 @@ Partial Class Form2
         '
         Me.symptom8.AutoSize = True
         Me.symptom8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom8.Location = New System.Drawing.Point(282, 402)
+        Me.symptom8.Location = New System.Drawing.Point(414, 402)
         Me.symptom8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.symptom8.Name = "symptom8"
         Me.symptom8.Size = New System.Drawing.Size(48, 18)
@@ -369,12 +370,38 @@ Partial Class Form2
         Me.actionTake.TabIndex = 53
         Me.actionTake.Text = "------"
         '
+        'saveDatabase
+        '
+        Me.saveDatabase.ActiveBorderThickness = 1
+        Me.saveDatabase.ActiveCornerRadius = 20
+        Me.saveDatabase.ActiveFillColor = System.Drawing.Color.LightGreen
+        Me.saveDatabase.ActiveForecolor = System.Drawing.Color.Transparent
+        Me.saveDatabase.ActiveLineColor = System.Drawing.Color.LightGreen
+        Me.saveDatabase.BackColor = System.Drawing.Color.White
+        Me.saveDatabase.BackgroundImage = CType(resources.GetObject("saveDatabase.BackgroundImage"), System.Drawing.Image)
+        Me.saveDatabase.ButtonText = "Save to database"
+        Me.saveDatabase.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.saveDatabase.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.saveDatabase.ForeColor = System.Drawing.Color.SteelBlue
+        Me.saveDatabase.IdleBorderThickness = 1
+        Me.saveDatabase.IdleCornerRadius = 20
+        Me.saveDatabase.IdleFillColor = System.Drawing.Color.Transparent
+        Me.saveDatabase.IdleForecolor = System.Drawing.Color.Gray
+        Me.saveDatabase.IdleLineColor = System.Drawing.Color.Gray
+        Me.saveDatabase.Location = New System.Drawing.Point(598, 460)
+        Me.saveDatabase.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
+        Me.saveDatabase.Name = "saveDatabase"
+        Me.saveDatabase.Size = New System.Drawing.Size(169, 53)
+        Me.saveDatabase.TabIndex = 54
+        Me.saveDatabase.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(732, 528)
+        Me.ClientSize = New System.Drawing.Size(957, 528)
+        Me.Controls.Add(Me.saveDatabase)
         Me.Controls.Add(Me.actionTake)
         Me.Controls.Add(Me.symptom8)
         Me.Controls.Add(Me.question3)
@@ -437,4 +464,5 @@ Partial Class Form2
     Friend WithEvents symptom8 As Label
     Friend WithEvents question3 As Label
     Friend WithEvents actionTake As Label
+    Friend WithEvents saveDatabase As Bunifu.Framework.UI.BunifuThinButton2
 End Class

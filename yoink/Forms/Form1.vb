@@ -2,6 +2,7 @@
     ' Close button '
     Private Sub IconButton1_Click(sender As Object, e As EventArgs) Handles IconButton1.Click
         Me.Close()
+        Form4.Show()
     End Sub
 
     ' First name input '
