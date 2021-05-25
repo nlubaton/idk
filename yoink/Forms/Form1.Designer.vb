@@ -233,7 +233,7 @@ Partial Class returneeForm
         '
         Me.formName.AutoSize = True
         Me.formName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.formName.Location = New System.Drawing.Point(16, 11)
+        Me.formName.Location = New System.Drawing.Point(13, 9)
         Me.formName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.formName.Name = "formName"
         Me.formName.Size = New System.Drawing.Size(240, 25)

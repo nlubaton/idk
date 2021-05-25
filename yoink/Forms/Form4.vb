@@ -31,9 +31,8 @@ Public Class Form4
 			End While
 
 			If count = 1 Then
-				MessageBox.Show("Login successful")
 				Me.Hide()
-
+				Form5.Show()
 			Else
 				MessageBox.Show("Incorrect credentials")
 			End If
