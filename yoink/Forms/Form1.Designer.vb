@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class returneeForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class returneeForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(returneeForm))
@@ -67,10 +67,9 @@ Partial Class returneeForm
         '
         Me.nameLabel.AutoSize = True
         Me.nameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nameLabel.Location = New System.Drawing.Point(49, 100)
-        Me.nameLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.nameLabel.Location = New System.Drawing.Point(39, 80)
         Me.nameLabel.Name = "nameLabel"
-        Me.nameLabel.Size = New System.Drawing.Size(52, 18)
+        Me.nameLabel.Size = New System.Drawing.Size(45, 15)
         Me.nameLabel.TabIndex = 0
         Me.nameLabel.Text = "Name"
         '
@@ -78,10 +77,9 @@ Partial Class returneeForm
         '
         Me.mIdLabel.AutoSize = True
         Me.mIdLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mIdLabel.Location = New System.Drawing.Point(49, 186)
-        Me.mIdLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.mIdLabel.Location = New System.Drawing.Point(39, 149)
         Me.mIdLabel.Name = "mIdLabel"
-        Me.mIdLabel.Size = New System.Drawing.Size(76, 18)
+        Me.mIdLabel.Size = New System.Drawing.Size(65, 15)
         Me.mIdLabel.TabIndex = 2
         Me.mIdLabel.Text = "Matric ID"
         '
@@ -89,10 +87,9 @@ Partial Class returneeForm
         '
         Me.courseLabel.AutoSize = True
         Me.courseLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.courseLabel.Location = New System.Drawing.Point(49, 358)
-        Me.courseLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.courseLabel.Location = New System.Drawing.Point(39, 286)
         Me.courseLabel.Name = "courseLabel"
-        Me.courseLabel.Size = New System.Drawing.Size(63, 18)
+        Me.courseLabel.Size = New System.Drawing.Size(52, 15)
         Me.courseLabel.TabIndex = 4
         Me.courseLabel.Text = "Course"
         '
@@ -109,10 +106,10 @@ Partial Class returneeForm
         Me.fNameInput.LineIdleColor = System.Drawing.Color.Gray
         Me.fNameInput.LineMouseHoverColor = System.Drawing.Color.SteelBlue
         Me.fNameInput.LineThickness = 4
-        Me.fNameInput.Location = New System.Drawing.Point(55, 132)
-        Me.fNameInput.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.fNameInput.Location = New System.Drawing.Point(44, 106)
+        Me.fNameInput.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.fNameInput.Name = "fNameInput"
-        Me.fNameInput.Size = New System.Drawing.Size(220, 32)
+        Me.fNameInput.Size = New System.Drawing.Size(176, 26)
         Me.fNameInput.TabIndex = 1
         Me.fNameInput.Text = "First"
         Me.fNameInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -130,10 +127,10 @@ Partial Class returneeForm
         Me.lNameInput.LineIdleColor = System.Drawing.Color.Gray
         Me.lNameInput.LineMouseHoverColor = System.Drawing.Color.SteelBlue
         Me.lNameInput.LineThickness = 4
-        Me.lNameInput.Location = New System.Drawing.Point(292, 132)
-        Me.lNameInput.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.lNameInput.Location = New System.Drawing.Point(234, 106)
+        Me.lNameInput.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.lNameInput.Name = "lNameInput"
-        Me.lNameInput.Size = New System.Drawing.Size(222, 32)
+        Me.lNameInput.Size = New System.Drawing.Size(178, 26)
         Me.lNameInput.TabIndex = 2
         Me.lNameInput.Text = "Last"
         Me.lNameInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -151,10 +148,10 @@ Partial Class returneeForm
         Me.mIdInput.LineIdleColor = System.Drawing.Color.Gray
         Me.mIdInput.LineMouseHoverColor = System.Drawing.Color.SteelBlue
         Me.mIdInput.LineThickness = 4
-        Me.mIdInput.Location = New System.Drawing.Point(55, 219)
-        Me.mIdInput.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.mIdInput.Location = New System.Drawing.Point(44, 175)
+        Me.mIdInput.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.mIdInput.Name = "mIdInput"
-        Me.mIdInput.Size = New System.Drawing.Size(461, 32)
+        Me.mIdInput.Size = New System.Drawing.Size(369, 26)
         Me.mIdInput.TabIndex = 3
         Me.mIdInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -165,13 +162,13 @@ Partial Class returneeForm
         Me.courseSelect.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.courseSelect.ForeColor = System.Drawing.Color.White
         Me.courseSelect.Items = New String() {"- Please select a course -", "Diploma in Accounting", "Diploma in Graphic Design", "Diploma in Information Technology", "Diploma in Management", "Diploma in Tourism", "Certificate in Health Science", "Certificate in Computer Science", "Certificate in Management"}
-        Me.courseSelect.Location = New System.Drawing.Point(55, 391)
-        Me.courseSelect.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
+        Me.courseSelect.Location = New System.Drawing.Point(44, 313)
+        Me.courseSelect.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
         Me.courseSelect.Name = "courseSelect"
         Me.courseSelect.NomalColor = System.Drawing.Color.Gray
         Me.courseSelect.onHoverColor = System.Drawing.Color.SteelBlue
         Me.courseSelect.selectedIndex = 0
-        Me.courseSelect.Size = New System.Drawing.Size(458, 32)
+        Me.courseSelect.Size = New System.Drawing.Size(366, 26)
         Me.courseSelect.TabIndex = 6
         '
         'BunifuDragControl1
@@ -198,10 +195,9 @@ Partial Class returneeForm
         Me.IconButton1.IconColor = System.Drawing.Color.Black
         Me.IconButton1.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.IconButton1.IconSize = 24
-        Me.IconButton1.Location = New System.Drawing.Point(1123, 13)
-        Me.IconButton1.Margin = New System.Windows.Forms.Padding(4)
+        Me.IconButton1.Location = New System.Drawing.Point(898, 10)
         Me.IconButton1.Name = "IconButton1"
-        Me.IconButton1.Size = New System.Drawing.Size(25, 25)
+        Me.IconButton1.Size = New System.Drawing.Size(20, 20)
         Me.IconButton1.TabIndex = 12
         Me.IconButton1.UseVisualStyleBackColor = False
         '
@@ -209,10 +205,9 @@ Partial Class returneeForm
         '
         Me.question1.AutoSize = True
         Me.question1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.question1.Location = New System.Drawing.Point(652, 100)
-        Me.question1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.question1.Location = New System.Drawing.Point(522, 80)
         Me.question1.Name = "question1"
-        Me.question1.Size = New System.Drawing.Size(417, 18)
+        Me.question1.Size = New System.Drawing.Size(351, 15)
         Me.question1.TabIndex = 13
         Me.question1.Text = "Have you had any of the following symptoms recently?"
         '
@@ -221,10 +216,10 @@ Partial Class returneeForm
         Me.BunifuSeparator1.BackColor = System.Drawing.Color.Transparent
         Me.BunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.BunifuSeparator1.LineThickness = 1
-        Me.BunifuSeparator1.Location = New System.Drawing.Point(582, 66)
-        Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(5)
+        Me.BunifuSeparator1.Location = New System.Drawing.Point(466, 53)
+        Me.BunifuSeparator1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BunifuSeparator1.Name = "BunifuSeparator1"
-        Me.BunifuSeparator1.Size = New System.Drawing.Size(28, 449)
+        Me.BunifuSeparator1.Size = New System.Drawing.Size(22, 359)
         Me.BunifuSeparator1.TabIndex = 14
         Me.BunifuSeparator1.Transparency = 255
         Me.BunifuSeparator1.Vertical = True
@@ -233,10 +228,9 @@ Partial Class returneeForm
         '
         Me.formName.AutoSize = True
         Me.formName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.formName.Location = New System.Drawing.Point(13, 9)
-        Me.formName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.formName.Location = New System.Drawing.Point(10, 7)
         Me.formName.Name = "formName"
-        Me.formName.Size = New System.Drawing.Size(240, 25)
+        Me.formName.Size = New System.Drawing.Size(200, 20)
         Me.formName.TabIndex = 15
         Me.formName.Text = "Campus Returnee Form"
         '
@@ -248,8 +242,8 @@ Partial Class returneeForm
         Me.symptomCheck1.CheckedOnColor = System.Drawing.Color.SteelBlue
         Me.symptomCheck1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.symptomCheck1.ForeColor = System.Drawing.Color.White
-        Me.symptomCheck1.Location = New System.Drawing.Point(658, 140)
-        Me.symptomCheck1.Margin = New System.Windows.Forms.Padding(5)
+        Me.symptomCheck1.Location = New System.Drawing.Point(526, 112)
+        Me.symptomCheck1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.symptomCheck1.Name = "symptomCheck1"
         Me.symptomCheck1.Size = New System.Drawing.Size(20, 20)
         Me.symptomCheck1.TabIndex = 7
@@ -258,10 +252,9 @@ Partial Class returneeForm
         '
         Me.symptom1.AutoSize = True
         Me.symptom1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom1.Location = New System.Drawing.Point(692, 140)
-        Me.symptom1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.symptom1.Location = New System.Drawing.Point(554, 112)
         Me.symptom1.Name = "symptom1"
-        Me.symptom1.Size = New System.Drawing.Size(45, 18)
+        Me.symptom1.Size = New System.Drawing.Size(37, 15)
         Me.symptom1.TabIndex = 17
         Me.symptom1.Text = "Fever"
         '
@@ -269,10 +262,9 @@ Partial Class returneeForm
         '
         Me.symptom2.AutoSize = True
         Me.symptom2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom2.Location = New System.Drawing.Point(692, 172)
-        Me.symptom2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.symptom2.Location = New System.Drawing.Point(554, 138)
         Me.symptom2.Name = "symptom2"
-        Me.symptom2.Size = New System.Drawing.Size(52, 18)
+        Me.symptom2.Size = New System.Drawing.Size(43, 15)
         Me.symptom2.TabIndex = 19
         Me.symptom2.Text = "Cough"
         '
@@ -284,8 +276,8 @@ Partial Class returneeForm
         Me.symptomCheck2.CheckedOnColor = System.Drawing.Color.SteelBlue
         Me.symptomCheck2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.symptomCheck2.ForeColor = System.Drawing.Color.White
-        Me.symptomCheck2.Location = New System.Drawing.Point(658, 172)
-        Me.symptomCheck2.Margin = New System.Windows.Forms.Padding(5)
+        Me.symptomCheck2.Location = New System.Drawing.Point(526, 138)
+        Me.symptomCheck2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.symptomCheck2.Name = "symptomCheck2"
         Me.symptomCheck2.Size = New System.Drawing.Size(20, 20)
         Me.symptomCheck2.TabIndex = 8
@@ -294,10 +286,9 @@ Partial Class returneeForm
         '
         Me.symptom3.AutoSize = True
         Me.symptom3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom3.Location = New System.Drawing.Point(692, 204)
-        Me.symptom3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.symptom3.Location = New System.Drawing.Point(554, 163)
         Me.symptom3.Name = "symptom3"
-        Me.symptom3.Size = New System.Drawing.Size(87, 18)
+        Me.symptom3.Size = New System.Drawing.Size(71, 15)
         Me.symptom3.TabIndex = 21
         Me.symptom3.Text = "Sore Throat"
         '
@@ -309,8 +300,8 @@ Partial Class returneeForm
         Me.symptomCheck3.CheckedOnColor = System.Drawing.Color.SteelBlue
         Me.symptomCheck3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.symptomCheck3.ForeColor = System.Drawing.Color.White
-        Me.symptomCheck3.Location = New System.Drawing.Point(658, 204)
-        Me.symptomCheck3.Margin = New System.Windows.Forms.Padding(5)
+        Me.symptomCheck3.Location = New System.Drawing.Point(526, 163)
+        Me.symptomCheck3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.symptomCheck3.Name = "symptomCheck3"
         Me.symptomCheck3.Size = New System.Drawing.Size(20, 20)
         Me.symptomCheck3.TabIndex = 9
@@ -319,10 +310,9 @@ Partial Class returneeForm
         '
         Me.symptom4.AutoSize = True
         Me.symptom4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom4.Location = New System.Drawing.Point(692, 236)
-        Me.symptom4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.symptom4.Location = New System.Drawing.Point(554, 189)
         Me.symptom4.Name = "symptom4"
-        Me.symptom4.Size = New System.Drawing.Size(196, 18)
+        Me.symptom4.Size = New System.Drawing.Size(160, 15)
         Me.symptom4.TabIndex = 23
         Me.symptom4.Text = "Lost of sense ie. taste, smell"
         '
@@ -334,8 +324,8 @@ Partial Class returneeForm
         Me.symptomCheck4.CheckedOnColor = System.Drawing.Color.SteelBlue
         Me.symptomCheck4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.symptomCheck4.ForeColor = System.Drawing.Color.White
-        Me.symptomCheck4.Location = New System.Drawing.Point(658, 236)
-        Me.symptomCheck4.Margin = New System.Windows.Forms.Padding(5)
+        Me.symptomCheck4.Location = New System.Drawing.Point(526, 189)
+        Me.symptomCheck4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.symptomCheck4.Name = "symptomCheck4"
         Me.symptomCheck4.Size = New System.Drawing.Size(20, 20)
         Me.symptomCheck4.TabIndex = 10
@@ -344,10 +334,9 @@ Partial Class returneeForm
         '
         Me.symptom5.AutoSize = True
         Me.symptom5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.symptom5.Location = New System.Drawing.Point(692, 268)
-        Me.symptom5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.symptom5.Location = New System.Drawing.Point(554, 214)
         Me.symptom5.Name = "symptom5"
-        Me.symptom5.Size = New System.Drawing.Size(129, 18)
+        Me.symptom5.Size = New System.Drawing.Size(106, 15)
         Me.symptom5.TabIndex = 25
         Me.symptom5.Text = "None of the above"
         '
@@ -359,8 +348,8 @@ Partial Class returneeForm
         Me.symptomCheck5.CheckedOnColor = System.Drawing.Color.SteelBlue
         Me.symptomCheck5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.symptomCheck5.ForeColor = System.Drawing.Color.White
-        Me.symptomCheck5.Location = New System.Drawing.Point(658, 268)
-        Me.symptomCheck5.Margin = New System.Windows.Forms.Padding(5)
+        Me.symptomCheck5.Location = New System.Drawing.Point(526, 214)
+        Me.symptomCheck5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.symptomCheck5.Name = "symptomCheck5"
         Me.symptomCheck5.Size = New System.Drawing.Size(20, 20)
         Me.symptomCheck5.TabIndex = 11
@@ -368,10 +357,9 @@ Partial Class returneeForm
         'question2
         '
         Me.question2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.question2.Location = New System.Drawing.Point(652, 318)
-        Me.question2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.question2.Location = New System.Drawing.Point(522, 254)
         Me.question2.Name = "question2"
-        Me.question2.Size = New System.Drawing.Size(460, 55)
+        Me.question2.Size = New System.Drawing.Size(368, 44)
         Me.question2.TabIndex = 26
         Me.question2.Text = "Have you been in close contact with person suspected and/or confirmed to have COV" &
     "ID-19"
@@ -382,8 +370,8 @@ Partial Class returneeForm
         Me.question2Switch.BackgroundImage = CType(resources.GetObject("question2Switch.BackgroundImage"), System.Drawing.Image)
         Me.question2Switch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.question2Switch.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.question2Switch.Location = New System.Drawing.Point(705, 378)
-        Me.question2Switch.Margin = New System.Windows.Forms.Padding(5)
+        Me.question2Switch.Location = New System.Drawing.Point(564, 302)
+        Me.question2Switch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.question2Switch.Name = "question2Switch"
         Me.question2Switch.OffColor = System.Drawing.Color.Gray
         Me.question2Switch.OnColor = System.Drawing.Color.SteelBlue
@@ -395,11 +383,10 @@ Partial Class returneeForm
         '
         Me.question2Yes.AutoSize = True
         Me.question2Yes.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.question2Yes.Location = New System.Drawing.Point(770, 380)
-        Me.question2Yes.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.question2Yes.Location = New System.Drawing.Point(616, 304)
         Me.question2Yes.Name = "question2Yes"
         Me.question2Yes.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.question2Yes.Size = New System.Drawing.Size(33, 18)
+        Me.question2Yes.Size = New System.Drawing.Size(27, 15)
         Me.question2Yes.TabIndex = 29
         Me.question2Yes.Text = "Yes"
         '
@@ -407,11 +394,10 @@ Partial Class returneeForm
         '
         Me.question2No.AutoSize = True
         Me.question2No.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.question2No.Location = New System.Drawing.Point(658, 380)
-        Me.question2No.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.question2No.Location = New System.Drawing.Point(526, 304)
         Me.question2No.Name = "question2No"
         Me.question2No.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.question2No.Size = New System.Drawing.Size(28, 18)
+        Me.question2No.Size = New System.Drawing.Size(23, 15)
         Me.question2No.TabIndex = 30
         Me.question2No.Text = "No"
         '
@@ -419,10 +405,9 @@ Partial Class returneeForm
         '
         Me.question3.AutoSize = True
         Me.question3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.question3.Location = New System.Drawing.Point(652, 428)
-        Me.question3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.question3.Location = New System.Drawing.Point(522, 342)
         Me.question3.Name = "question3"
-        Me.question3.Size = New System.Drawing.Size(306, 18)
+        Me.question3.Size = New System.Drawing.Size(262, 15)
         Me.question3.TabIndex = 31
         Me.question3.Text = "Are you currently under self quarantine?"
         '
@@ -430,11 +415,10 @@ Partial Class returneeForm
         '
         Me.question3No.AutoSize = True
         Me.question3No.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.question3No.Location = New System.Drawing.Point(658, 462)
-        Me.question3No.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.question3No.Location = New System.Drawing.Point(526, 370)
         Me.question3No.Name = "question3No"
         Me.question3No.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.question3No.Size = New System.Drawing.Size(28, 18)
+        Me.question3No.Size = New System.Drawing.Size(23, 15)
         Me.question3No.TabIndex = 34
         Me.question3No.Text = "No"
         '
@@ -442,11 +426,10 @@ Partial Class returneeForm
         '
         Me.question3Yes.AutoSize = True
         Me.question3Yes.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.question3Yes.Location = New System.Drawing.Point(770, 462)
-        Me.question3Yes.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.question3Yes.Location = New System.Drawing.Point(616, 370)
         Me.question3Yes.Name = "question3Yes"
         Me.question3Yes.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.question3Yes.Size = New System.Drawing.Size(33, 18)
+        Me.question3Yes.Size = New System.Drawing.Size(27, 15)
         Me.question3Yes.TabIndex = 33
         Me.question3Yes.Text = "Yes"
         '
@@ -456,8 +439,8 @@ Partial Class returneeForm
         Me.question3Switch.BackgroundImage = CType(resources.GetObject("question3Switch.BackgroundImage"), System.Drawing.Image)
         Me.question3Switch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.question3Switch.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.question3Switch.Location = New System.Drawing.Point(705, 459)
-        Me.question3Switch.Margin = New System.Windows.Forms.Padding(5)
+        Me.question3Switch.Location = New System.Drawing.Point(564, 367)
+        Me.question3Switch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.question3Switch.Name = "question3Switch"
         Me.question3Switch.OffColor = System.Drawing.Color.Gray
         Me.question3Switch.OnColor = System.Drawing.Color.SteelBlue
@@ -469,10 +452,9 @@ Partial Class returneeForm
         '
         Me.phoneNum.AutoSize = True
         Me.phoneNum.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.phoneNum.Location = New System.Drawing.Point(49, 272)
-        Me.phoneNum.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.phoneNum.Location = New System.Drawing.Point(39, 218)
         Me.phoneNum.Name = "phoneNum"
-        Me.phoneNum.Size = New System.Drawing.Size(56, 18)
+        Me.phoneNum.Size = New System.Drawing.Size(48, 15)
         Me.phoneNum.TabIndex = 35
         Me.phoneNum.Text = "Phone"
         '
@@ -489,10 +471,10 @@ Partial Class returneeForm
         Me.phoneNumInput.LineIdleColor = System.Drawing.Color.Gray
         Me.phoneNumInput.LineMouseHoverColor = System.Drawing.Color.SteelBlue
         Me.phoneNumInput.LineThickness = 4
-        Me.phoneNumInput.Location = New System.Drawing.Point(55, 305)
-        Me.phoneNumInput.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.phoneNumInput.Location = New System.Drawing.Point(44, 244)
+        Me.phoneNumInput.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.phoneNumInput.Name = "phoneNumInput"
-        Me.phoneNumInput.Size = New System.Drawing.Size(220, 32)
+        Me.phoneNumInput.Size = New System.Drawing.Size(176, 26)
         Me.phoneNumInput.TabIndex = 4
         Me.phoneNumInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -514,10 +496,10 @@ Partial Class returneeForm
         Me.sendButton.IdleFillColor = System.Drawing.Color.Transparent
         Me.sendButton.IdleForecolor = System.Drawing.Color.Gray
         Me.sendButton.IdleLineColor = System.Drawing.Color.Gray
-        Me.sendButton.Location = New System.Drawing.Point(292, 445)
-        Me.sendButton.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
+        Me.sendButton.Location = New System.Drawing.Point(234, 356)
+        Me.sendButton.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
         Me.sendButton.Name = "sendButton"
-        Me.sendButton.Size = New System.Drawing.Size(169, 52)
+        Me.sendButton.Size = New System.Drawing.Size(135, 42)
         Me.sendButton.TabIndex = 15
         Me.sendButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -539,10 +521,10 @@ Partial Class returneeForm
         Me.clearButton.IdleFillColor = System.Drawing.Color.Transparent
         Me.clearButton.IdleForecolor = System.Drawing.Color.Gray
         Me.clearButton.IdleLineColor = System.Drawing.Color.Gray
-        Me.clearButton.Location = New System.Drawing.Point(95, 445)
-        Me.clearButton.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
+        Me.clearButton.Location = New System.Drawing.Point(76, 356)
+        Me.clearButton.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
         Me.clearButton.Name = "clearButton"
-        Me.clearButton.Size = New System.Drawing.Size(169, 52)
+        Me.clearButton.Size = New System.Drawing.Size(135, 42)
         Me.clearButton.TabIndex = 14
         Me.clearButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -550,10 +532,9 @@ Partial Class returneeForm
         '
         Me.bodyTemp.AutoSize = True
         Me.bodyTemp.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bodyTemp.Location = New System.Drawing.Point(290, 272)
-        Me.bodyTemp.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.bodyTemp.Location = New System.Drawing.Point(232, 218)
         Me.bodyTemp.Name = "bodyTemp"
-        Me.bodyTemp.Size = New System.Drawing.Size(103, 18)
+        Me.bodyTemp.Size = New System.Drawing.Size(89, 15)
         Me.bodyTemp.TabIndex = 39
         Me.bodyTemp.Text = "Temperature"
         '
@@ -570,21 +551,21 @@ Partial Class returneeForm
         Me.bodyTempInput.LineIdleColor = System.Drawing.Color.Gray
         Me.bodyTempInput.LineMouseHoverColor = System.Drawing.Color.SteelBlue
         Me.bodyTempInput.LineThickness = 4
-        Me.bodyTempInput.Location = New System.Drawing.Point(292, 305)
-        Me.bodyTempInput.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.bodyTempInput.Location = New System.Drawing.Point(234, 244)
+        Me.bodyTempInput.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.bodyTempInput.Name = "bodyTempInput"
-        Me.bodyTempInput.Size = New System.Drawing.Size(220, 32)
+        Me.bodyTempInput.Size = New System.Drawing.Size(176, 26)
         Me.bodyTempInput.TabIndex = 5
         Me.bodyTempInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'returneeForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.AutoSize = True
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1161, 554)
+        Me.ClientSize = New System.Drawing.Size(929, 443)
         Me.Controls.Add(Me.bodyTempInput)
         Me.Controls.Add(Me.bodyTemp)
         Me.Controls.Add(Me.clearButton)
@@ -621,8 +602,7 @@ Partial Class returneeForm
         Me.Controls.Add(Me.mIdLabel)
         Me.Controls.Add(Me.nameLabel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.MinimumSize = New System.Drawing.Size(1161, 554)
+        Me.MinimumSize = New System.Drawing.Size(929, 443)
         Me.Name = "returneeForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Campus Returnee Form"

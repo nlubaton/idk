@@ -87,5 +87,4 @@ Skip:
     Private Sub symptomCheck4_OnChange(sender As Object, e As EventArgs) Handles symptomCheck4.OnChange
         symptomCheck5.Checked = False
     End Sub
-
 End Class
